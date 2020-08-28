@@ -1,0 +1,59 @@
+/* Code tidied up by ScrapBook */
+html, body { height: 100%; }
+body { padding-top: 0px; }
+.btn, .alert { border-radius: 0px; }
+a { color: rgb(0, 108, 175); }
+.logo-text { font-size: 40px; color: rgb(187, 187, 187); font-family: "proxima-nova","arial"; font-weight: bold; }
+.logo-link:hover { text-decoration: none; }
+.page-header { width: 100%; border-bottom: 0px none; margin-top: 20px; }
+.page-header h1 { margin-right: 50px; margin-top: 0px; margin-left: 0px; }
+.page-actions { float: right; }
+.content-menu { border-bottom: 1px solid rgb(238, 238, 238); }
+.page-menu { overflow: hidden; list-style: outside none none; padding: 0px; margin: 0px; }
+.page-menu li { float: left; margin-right: 15px; padding: 5px 20px; }
+.page-menu li.active { background: rgb(240, 240, 240) none repeat scroll 0% 0%; }
+.page-menu li.active a { color: black; font-weight: bold; }
+.breadcrumbs {  }
+.empty-breadcrumbs { height: 20px; }
+.main-page-block .container { padding-top: 20px; }
+.filter-block {  }
+.filter-block h4 { font-size: 16px; font-weight: bold; font-family: "proxima-nova","arial"; color: rgb(52, 73, 94); }
+.filter-block .filter-list { list-style: outside none none; padding-left: 0px; margin-bottom: 30px; }
+.filter-block .filter-list .badge { background: transparent none repeat scroll 0% 0%; font-weight: normal; color: rgb(102, 102, 102); font-size: 14px; }
+.filter-block .filter-list li { padding-left: 0px; }
+.filter-block .filter-list a { color: rgb(102, 102, 102); display: block; padding-top: 5px; padding-bottom: 5px; }
+.filter-block .filter-list > li.selected > a { background: rgb(52, 73, 94) none repeat scroll 0% 0%; margin-left: -5px; padding-left: 6px; color: white; }
+.filter-block .filter-list > li.selected > a { background-color: rgb(52, 73, 94); color: white; }
+.filter-block .filter-list > li.selected > a .badge { color: white; }
+.filter-block .filter-list .filter-list { padding-left: 20px; margin-bottom: 0px; }
+ul.yiiPager { font-size: 15px; }
+ul.yiiPager .hidden a { border: 0px none; }
+ul.yiiPager .selected a { border: 0px none; padding-left: 10px; padding-right: 10px; }
+ul.yiiPager .page a, ul.yiiPager .next a, ul.yiiPager .previous a { border: 0px none; }
+.values-table tr td { padding-right: 20px; }
+.videoWrapper { position: relative; padding-bottom: 56.25%; padding-top: 0px; height: 0px; }
+.videoWrapper iframe { position: absolute; top: 0px; left: 0px; width: 100%; height: 100%; }
+a.user-profile-link { color: rgb(51, 51, 51); }
+.hidden-footer { display: none; }
+.user-action-block { overflow: hidden; margin-bottom: 10px; background: rgb(237, 239, 244) none repeat scroll 0% 0%; padding: 4px; }
+.user-action-block.fresh-action { background: rgb(255, 251, 216) none repeat scroll 0% 0%; }
+.user-action-block .user-name { color: rgb(102, 102, 102); }
+.user-action-block .text-block { overflow: hidden; }
+.user-action-block .user-image { float: left; }
+.user-action-block .user-image { margin-right: 10px; }
+.dashed-link { border-bottom: 1px dashed rgb(0, 108, 175); cursor: pointer; }
+.dashed-link:hover { border-bottom: medium none; cursor: pointer; }
+.gray-link { color: rgb(153, 153, 153); }
+.gray-link { border-color: rgb(153, 153, 153) ! important; }
+.gray-link:hover { color: rgb(153, 153, 153); }
+.editable-link-wrapper .link { cursor: pointer; text-decoration: none; border-bottom: 1px dashed black; color: black; }
+.editable-link-wrapper.no-value .link { color: rgb(153, 153, 153); border-color: rgb(153, 153, 153); }
+.editable-link-wrapper input { display: none; }
+.editable-link-wrapper textarea { display: none; }
+.editable-link-wrapper .hide-in-view-mode { display: none; }
+.editable-link-wrapper.edit-mode input { display: inline-block; }
+.editable-link-wrapper.edit-mode textarea { display: inline-block; }
+.editable-link-wrapper.edit-mode .hide-in-view-mode { display: inline-block; }
+.editable-link-wrapper.edit-mode .link { display: none; }
+.editable-link-wrapper.edit-mode .hide-in-edit-mode { display: none; }
+button { background: rgb(218, 218, 218) none repeat scroll 0% 0%; }

@@ -1,0 +1,17 @@
+/* Code tidied up by ScrapBook */
+.emoji-wysiwyg-editor { width: 100%; border: 1px solid rgb(208, 208, 208); padding: 2px 4px; font-weight: normal; border-radius: 0px; box-sizing: border-box; background: rgb(255, 255, 255) none repeat scroll 0% 0%; resize: vertical; min-height: 28px; color: rgb(0, 0, 0); }
+textarea.emoji-area { margin-bottom: 0px ! important; padding: 10px; display: inline-block; width: 80% ! important; }
+.emoji-nl { height: 1px; }
+@font-face {
+  font-family: "emoji";
+  src: local("proxima-nova"), local("Lato"), local("Helvetica"), local("Arial Monospaced"), local("Arial");
+}
+@font-face {
+  font-family: "emoji";
+  src: local("Apple Color Emoji"), local("Android Emoji"), local("Segoe Color Emoji"), local("Segoe UI Emoji"), local("Noto Color Emoji"), local("Emojione Mozilla"), local("EmojiSymbols"), local("Twemoji Mozilla"), local("Segoe UI Symbol"), local("Mozilla"), local("Symbola");
+  unicode-range: U+1F000-1F9FF, U+2600-26FF;
+}
+.emoji-text img { width: 1.4em; height: 1.4em; vertical-align: sub; border: 0px none; }
+.emoji-button { display: inline-block; vertical-align: top; position: absolute; cursor: pointer; right: 6px; top: 4px; }
+.emoji-button span.fa { color: rgb(153, 153, 153); }
+.emoji-container { position: relative; }

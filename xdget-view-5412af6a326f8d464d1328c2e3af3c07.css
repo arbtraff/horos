@@ -1,0 +1,344 @@
+/* Code tidied up by ScrapBook */
+@media (min-width: 992px) {
+  .col-gc-1, .col-gc-2, .col-gc-3, .col-gc-4, .col-gc-5, .col-gc-6, .col-gc-7, .col-gc-8, .col-gc-9, .col-gc-10, .col-gc-11 { margin-left: auto; margin-right: auto; }
+  .col-gc-12 { width: 100%; }
+  .col-gc-11 { width: 91.6667%; }
+  .col-gc-10 { width: 83.3333%; }
+  .col-gc-9 { width: 75%; }
+  .col-gc-8 { width: 66.6667%; }
+  .col-gc-7 { width: 58.3333%; }
+  .col-gc-6 { width: 50%; }
+  .col-gc-5 { width: 41.6667%; }
+  .col-gc-4 { width: 33.3333%; }
+  .col-gc-3 { width: 25%; }
+  .col-gc-2 { width: 16.6667%; }
+  .col-gc-1 { width: 8.33333%; }
+  .col-gc-pull-12 { right: 100%; }
+  .col-gc-pull-11 { right: 91.6667%; }
+  .col-gc-pull-10 { right: 83.3333%; }
+  .col-gc-pull-9 { right: 75%; }
+  .col-gc-pull-8 { right: 66.6667%; }
+  .col-gc-pull-7 { right: 58.3333%; }
+  .col-gc-pull-6 { right: 50%; }
+  .col-gc-pull-5 { right: 41.6667%; }
+  .col-gc-pull-4 { right: 33.3333%; }
+  .col-gc-pull-3 { right: 25%; }
+  .col-gc-pull-2 { right: 16.6667%; }
+  .col-gc-pull-1 { right: 8.33333%; }
+  .col-gc-pull-0 { right: 0px; }
+  .col-gc-push-12 { left: 100%; }
+  .col-gc-push-11 { left: 91.6667%; }
+  .col-gc-push-10 { left: 83.3333%; }
+  .col-gc-push-9 { left: 75%; }
+  .col-gc-push-8 { left: 66.6667%; }
+  .col-gc-push-7 { left: 58.3333%; }
+  .col-gc-push-6 { left: 50%; }
+  .col-gc-push-5 { left: 41.6667%; }
+  .col-gc-push-4 { left: 33.3333%; }
+  .col-gc-push-3 { left: 25%; }
+  .col-gc-push-2 { left: 16.6667%; }
+  .col-gc-push-1 { left: 8.33333%; }
+  .col-gc-push-0 { left: 0px; }
+  .col-gc-offset-12 { margin-left: 100%; }
+  .col-gc-offset-11 { margin-left: 91.6667%; }
+  .col-gc-offset-10 { margin-left: 83.3333%; }
+  .col-gc-offset-9 { margin-left: 75%; }
+  .col-gc-offset-8 { margin-left: 66.6667%; }
+  .col-gc-offset-7 { margin-left: 58.3333%; }
+  .col-gc-offset-6 { margin-left: 50%; }
+  .col-gc-offset-5 { margin-left: 41.6667%; }
+  .col-gc-offset-4 { margin-left: 33.3333%; }
+  .col-gc-offset-3 { margin-left: 25%; }
+  .col-gc-offset-2 { margin-left: 16.6667%; }
+  .col-gc-offset-1 { margin-left: 8.33333%; }
+  .col-gc-offset-0 { margin-left: 0px; }
+}
+.xdget-block.editable { position: relative; }
+.xdget-block.editable { border: 1px dashed rgb(153, 153, 153); }
+.xdget-block.editable.hovered { border: 1px dashed rgb(255, 107, 109); }
+.xdget-block.editable.editing { border: 1px solid red; }
+.xdget-blocker, .xdget-editor-blocker { width: 100%; height: 100%; position: absolute; top: 0px; left: 0px; background: white none repeat scroll 0% 0%; opacity: 0.8; z-index: 1500; }
+.xdget-block.editing > .xdget-blocker { opacity: 0.5; }
+.xdget-block.blocked > .xdget-blocker { display: block; }
+.xdget-root.drag-mode .xdget-drag-handler { display: none; }
+.xdget-block .xdget-drag-handler { visibility: hidden; }
+.xdget-block.hovered > .xdget-drag-handler { visibility: visible; }
+.xdget-block.fadeable.xdget-fade { opacity: 0.2; }
+.xdget-block .xdget-control { border: 1px solid rgb(153, 153, 153); background: rgb(240, 240, 240) none repeat scroll 0% 0%; padding: 10px; }
+.xdget-block .xdget-control button { margin-right: 5px; }
+.xdget-block.editable.editing.edit-mode { border: 1px solid rgb(153, 153, 153); }
+.xdget-root.editing-mode .xdget-block { z-index: 0 ! important; }
+.xdget-block.edit-mode { padding: 0px; }
+.xdget-block.with-link { cursor: pointer; }
+.gc-for-logined { display: none; }
+.gc-for-guest { display: none; }
+.gc-user-logined .gc-for-logined { display: block; }
+.gc-user-guest .gc-for-guest { display: block; }
+.xdget-visible-to-bg-admins { background-image: url("admins.png"); }
+.xdget-visible-to-bg-users { background-image: url("users.png"); }
+.xdget-visible-to-bg-guests { background-image: url("guests.png"); }
+.standard-xdget-block { background: rgb(245, 245, 245) none repeat scroll 0% 0%; padding: 20px; }
+.xdget-lessonContent iframe { max-width: 100%; }
+.xdget-container.editable { border: 1px dashed rgb(238, 238, 238); }
+.xdget-common-container { z-index: 35; }
+.xdget-common-container > .xdget-blocker { display: none; }
+.xdget-editor-common-container .child-xdget-selector div { cursor: pointer; }
+.xdget-common-container .current-block { border-bottom: 22px solid yellow; }
+.xdget-container.container { width: 100%; }
+.xdget-common-container .xdget-placeholder { display: none; height: 20px; margin: 0px 15px; background: rgb(255, 255, 224) none repeat scroll 0% 0%; }
+.xdget-root.drag-mode .xdget-placeholder { display: block; }
+.xdget-common-container .xdget-placeholder.not-show { display: none ! important; }
+.xdget-common-container.empty { padding: 0px; }
+.xdget-common-container.empty .xdget-placeholder { width: 100%; height: 100%; position: absolute; margin: 0px ! important; }
+.xdget-block.editable.xdget-col { min-height: 20px; }
+.xdget-in-placeholder { background: rgb(255, 249, 135) none repeat scroll 0% 0%; position: absolute; display: none; z-index: 20; opacity: 0.8; }
+.xdget-in-placeholder.hovered-placeholder { background: orange none repeat scroll 0% 0% ! important; z-index: 25; }
+.xdget-in-placeholder-full { top: 0px; left: 0px; height: 100%; width: 100%; z-index: 5; }
+.xdget-in-placeholder-left { top: 0px; left: -20px; height: 100%; width: 20px; }
+.xdget-in-placeholder-right { top: 0px; right: -20px; height: 100%; width: 20px; }
+.xdget-in-placeholder-top { top: -20px; left: 0px; height: 20px; width: 100%; }
+.xdget-in-placeholder-bottom { bottom: -20px; left: 0px; height: 20px; width: 100%; }
+.xdget-in-title { position: absolute; top: -1px; right: 10px; padding-left: 3px; padding-right: 3px; background: rgb(255, 255, 224) none repeat scroll 0% 0%; color: rgb(102, 102, 102); font-size: 10px; visibility: hidden; z-index: 5; }
+.xdget-block.editable.hovered > .xdget-in-title { visibility: visible; }
+.xdget-block.editable.editing > .xdget-in-title { visibility: visible; }
+.xdget-root.drag-mode .xdget-block.hovered-add-child > .xdget-in-child-placeholder { display: block; z-index: 21; background: rgb(255, 249, 135) none repeat scroll 0% 0%; }
+.xdget-root.drag-mode .xdget-block.hovered-add-sibling > .xdget-in-sibling-placeholder { display: block ! important; z-index: 21; background: rgb(255, 249, 135) none repeat scroll 0% 0%; }
+.xdget-root.drag-mode .xdget-block.xdget-dragged .xdget-in-placeholder { display: none ! important; }
+.xdget-common-container img { max-width: 100%; }
+.xdget-root:not(.drag-mode) .xdget-block.editing > .xdget-in-placeholder { display: block; background: red none repeat scroll 0% 0%; opacity: 0.5; }
+.xdget-root:not(.drag-mode) .xdget-block.editing > .xdget-in-placeholder-left { left: -5px; width: 5px; }
+.xdget-root:not(.drag-mode) .xdget-block.editing > .xdget-in-placeholder-right { right: -5px; width: 5px; }
+.xdget-root:not(.drag-mode) .xdget-block.editing > .xdget-in-placeholder-top { top: -5px; height: 5px; }
+.xdget-root:not(.drag-mode) .xdget-block.editing > .xdget-in-placeholder-bottom { bottom: -5px; height: 5px; }
+.xdget-in-placeholder-full { background: orange none repeat scroll 0% 0% ! important; }
+.xdget-common-container.editable.empty { min-height: 10px; }
+.xdget-block.panel > .xdget-block { margin: 0px; }
+.xdget-row .xdget-container.empty:not(.editable) { display: none; }
+.xdget-root .gtk-player .container { width: 100% ! important; padding-top: 0px ! important; }
+.main-page-block.full-width .gtk-player .container { width: 100% ! important; padding-top: 0px ! important; }
+.global-xdget-editor .field-params div { margin-top: 20px; }
+.global-xdget-editor .field-params > input { margin-bottom: 20px; }
+.global-xdget-editor .field-params input { max-width: 100%; }
+.global-xdget-editor .field-params textarea { width: 100%; }
+.xdget-block .form-field { margin-bottom: 20px; }
+.xdget-block .form-field input { width: 100%; }
+.xdget-block .form-control { padding: 9px 12px 6px; }
+.xdget-block .form-field input { background: rgb(255, 255, 255) url("welcome-icons.png") no-repeat scroll 9px -111px; padding-left: 35px; }
+.xdget-block .form-field input.form-field-email { background-position: 9px 9px ! important; }
+.xdget-block .form-field input.form-field-first_name, .xdget-block .form-field input.form-field-last_name, .xdget-block .form-field input.form-field-name { background-position: 9px -31px ! important; }
+.xdget-block .form-field input.form-field-phone { background-position: 9px -71px ! important; }
+.global-controls { position: fixed; top: 20px; right: 20px; z-index: 10000; }
+.global-controls .btn { border-radius: 0px; font-size: 12px; margin-right: 10px; }
+.inline-global-controls { float: right; }
+.inline-global-controls .btn { margin-left: 10px; }
+.xdget-area.editable.empty { padding: 0px; }
+.xdget-area.editable { padding: 10px; }
+.area-NAVBAR.editable { padding: 0px; }
+.xdget-area.empty { background: rgb(240, 240, 240) none repeat scroll 0% 0%; opacity: 0.5; text-align: center; font-family: arial; font-size: 15px; }
+.xdget-choose-variant-selector { overflow: hidden; }
+.xdget-choose-variant-selector, .xdget-choose-variant-selector > li { list-style: outside none none; margin: 0px; padding: 0px; }
+.xdget-choose-variant-selector li { margin: 5px; float: left; padding: 3px 8px; cursor: pointer; }
+.xdget-only-one-variant .hidden-variant { display: none; }
+.xdget-choose-variant-selector .variant-link.active { background: rgb(240, 240, 255) none repeat scroll 0% 0%; }
+.xdget-countdown, .xdget-dealCountdown { text-align: center; }
+.xdget-dealCountdown.with-border { border: 10px solid rgb(217, 89, 0); padding: 20px; background: rgb(252, 248, 247) none repeat scroll 0% 0%; }
+.xdget-dealCountdown .countdown-timer { background: transparent none repeat scroll 0px center; border: 0px none; }
+.xdget-choose-state-selector { overflow: hidden; }
+.xdget-choose-state-selector, .xdget-choose-state-selector > li { list-style: outside none none; margin: 0px; padding: 0px; }
+.xdget-choose-state-selector li { margin: 5px; float: left; padding: 3px 8px; cursor: pointer; }
+.xdget-choose-state-selector .state-link.active { background: rgb(255, 255, 224) none repeat scroll 0% 0%; }
+.xdget-statefull .state-block { display: none; }
+.file-list .file-item { list-style: outside none none; overflow: hidden; padding-right: 10px; margin-top: 5px; margin-bottom: 15px; text-align: left; }
+.file-list { padding-left: 10px; }
+.file-list .file-item .thumbnail { float: left; margin-right: 10px; margin-bottom: 5px; }
+.file-list .description { font-size: 0.8em; color: rgb(153, 153, 153); display: block; }
+.xdget-gallery { overflow: hidden; text-align: center; }
+.xdget-gallery .gallery-tile .file-item { list-style: outside none none; float: left; overflow: hidden; margin-left: 10px; padding: 0px; margin-bottom: 20px; text-align: center; }
+.xdget-gallery .gallery-tile .file-item .thumbnail { margin-bottom: 0px; }
+.xdget-gallery .gallery-tile .file-item .thumbnail-link { display: block; }
+.xdget-gallery .gallery-carousel .file-item { display: none; }
+.xdget-gallery .no-thumbnail-border .thumbnail { padding: 0px; border: 0px none; border-radius: 0px; }
+.blueimp-gallery .next-wrapper { right: 0px; position: absolute; top: 0px; height: 90%; width: 50%; cursor: pointer; }
+.blueimp-gallery .prev-wrapper { left: 0px; position: absolute; top: 0px; height: 90%; width: 50%; cursor: pointer; }
+#typograf_go { width: 65px; height: 18px; font-size: 10px; position: absolute; left: 107px; margin-top: -38px; }
+.xdget-html.editing textarea { width: 100%; height: 100%; }
+.xdget-javascript.editing textarea { width: 100%; height: 500px; color: black; }
+.xdget-javascript.editable { background: rgb(170, 170, 170) none repeat scroll 0% 0%; color: rgb(255, 255, 255); padding: 5px; }
+.xdget-javascript .html-content { display: none; }
+#typograf_go { width: 65px; height: 18px; font-size: 10px; position: absolute; left: 107px; margin-top: -38px; }
+.xdget-image { padding: 0px; }
+.xdget-image .image-desc { display: block; font-size: 0.9em; color: rgb(153, 153, 153); }
+.xdget-image.with-link { cursor: pointer; }
+.xdget-image.width-fit img { width: 100%; }
+.xdget-common-user-form { padding: 20px; margin: 0px; }
+.xdget-common-user-form { text-align: left; }
+.xdget-common-user-form h1, .xdget-common-user-form h2, .xdget-common-user-form h3 { margin-top: 0px; }
+.xdget-common-user-form .email-value { font-weight: bold; }
+.xdget-common-user-form .btn-error { background-color: rgb(217, 83, 79); border-color: rgb(212, 63, 58); }
+.xdget-common-user-form .user-form-sep { height: 10px; }
+.standard-form { background: rgb(240, 240, 240) none repeat scroll 0% 0%; padding: 20px; max-width: 500px; }
+.xdget-loginUserForm.standard-form { padding: 30px 40px; max-width: 450px; }
+.xdget-common-user-form.standard-form h1, .xdget-common-user-form.standard-form h2, .xdget-common-user-form.standard-form h3 { margin-top: 0px; }
+.standard-form .form-buttons { text-align: left; }
+.xdget-userCompleteForm.standard-form .form-buttons { text-align: left; }
+.xdget-loginUserForm .state-form { display: none; }
+.xdget-loginUserForm.state-login .login-form { display: block; }
+.xdget-loginUserForm.state-register .register-form { display: block; }
+.xdget-loginUserForm.state-logined .logined-form { display: block; }
+.xdget-common-user-form .btn.btn-link.pull-right { padding-right: 0px; }
+.xdget-common-user-form h1 { font-weight: bold; font-family: "proxima-nova","arial"; font-size: 32px; margin-bottom: 10px; }
+.xdget-common-user-form h2 { font-size: 40px; font-family: "proxima-nova","arial"; font-weight: 100; margin-bottom: 10px; }
+.xdget-common-user-form h3 { font-size: 22px; font-family: "proxima-nova","arial"; font-weight: 600; margin-bottom: 10px; }
+.xdget-common-user-form.hide-content > .xdget-block { display: none ! important; }
+.xdget-common-user-form .state-form { display: none; }
+.xdget-common-user-form .state-form.active-state { display: block; }
+.xdget-surveyUserForm.state-has_answer .has-answer-form { display: block; }
+.xdget-surveyUserForm.state-no_answer .no-answer-form { display: block; }
+.xdget-contactForm .state-form { display: none; }
+.xdget-common-user-form.state-before_send .before-send-form { display: block; }
+.xdget-common-user-form.state-after_send .after-send-form { display: block; }
+.xdget-groupUserForm.state-already_in_group .already-in-group-form { display: block; }
+.xdget-common-user-form.state-already_in_group .already-in-group-form { display: block; }
+.xdget-choose-state-selector { overflow: hidden; }
+.xdget-choose-state-selector, .xdget-choose-state-selector > li { list-style: outside none none; margin: 0px; padding: 0px; }
+.xdget-choose-state-selector li { margin: 5px; float: left; padding: 3px 8px; cursor: pointer; }
+.xdget-choose-state-selector .state-link.active { background: rgb(255, 255, 224) none repeat scroll 0% 0%; }
+.xdget-common-user-form .row { margin-bottom: 0px; }
+.xdget-common-user-form .error-message { margin-top: 10px; margin-bottom: 10px; }
+.xdget-socialUserFormField .social-buttons-label { padding-right: 5px; }
+.xdget-socialUserFormField .btn { margin-right: 4px; font-size: 11px; line-height: 10px; border-radius: 3px; overflow: hidden; width: 29px; height: 29px; }
+.xdget-socialUserFormField .btn i { color: white; margin-top: -3px; }
+.xdget-socialUserFormField .btn img { width: 17px ! important; margin-left: 5px; margin-top: 5px; }
+.xdget-socialUserFormField .profile-auth-image { width: 25px; border-radius: 50%; margin-right: 5px; }
+.xdget-socialUserFormField .btn-sm .profile-auth-image { width: 15px; margin-top: -3px; }
+.xdget-socialUserFormField.buttons-on-new-line .btn { display: block; margin-bottom: 3px; min-width: 150px; }
+.xdget-socialUserFormField .btn:hover { color: white; }
+.xdget-loginUserForm.standard-form { transition: background 1s ease 0s; }
+.xdget-loginUserForm.standard-form.for-chatium { box-shadow: 0px 3px 10px 3px rgba(0, 0, 0, 0.2); background: rgb(236, 23, 79) none repeat scroll 0% 0%; padding: 20px; color: white; }
+.xdget-loginUserForm.standard-form.for-chatium .btn-register { display: none; }
+.btn-social-icon.btn-chatium { background: rgb(236, 23, 79) none repeat scroll 0% 0%; }
+.btn-social-icon.btn-chatium:hover { background: rgb(173, 17, 58) none repeat scroll 0% 0%; }
+.xdget-loginUserForm.standard-form.for-chatium .xdget-block.xdget-header { display: none; }
+.xdget-socialUserFormField .btn .fa.fa-chatium { margin-bottom: -5px; }
+.fa.fa-chatium::before { content: "C"; color: white; }
+.chatium-login-icon { background: white none repeat scroll 0% 0%; color: rgb(236, 23, 79); font-family: "Arial Black"; }
+.chatium-login-form { margin-bottom: 10px; }
+.xdget-loginUserForm.for-chatium .form-field-password { display: none; }
+.xdget-loginUserForm.for-chatium .form-buttons { display: none; }
+.chatium-instructions { padding-top: 10px; padding-bottom: 10px; }
+.xdget-offer { padding: 5px 5px 2px; margin-left: -5px; margin-right: -5px; }
+.xdget-offer label { font-weight: normal; cursor: pointer; display: block; padding-left: 20px; text-indent: -20px; }
+.xdget-offer .price-block { float: right; padding-left: 0px; text-indent: 0px; text-align: right; }
+.xdget-offer .source-price { text-decoration: line-through; }
+.xdget-offer .final-price { font-weight: bold; }
+.xdget-offer.selected { background: rgb(255, 255, 224) none repeat scroll 0% 0%; }
+.xdget-offer.access-not-show { display: none; }
+.xdget-offer.editable.access-not-show { display: block; opacity: 0.5; text-decoration: line-through; }
+.xdget-offer.access-cant-buy { opacity: 0.5; }
+.xdget-offer .not-access-message { padding-left: 10px; font-size: 0.8em; color: red; display: block; }
+.xdget-offer .offer-desc-string { padding-left: 20px; color: rgb(153, 153, 153); font-size: 0.8em; }
+.xdget-offer .offer-desc-string .coverable-offer { font-size: 14px; color: rgb(51, 51, 51); font-family: "proxima-nova","Lato",Helvetica,Arial,sans-serif; }
+.xdget-offer .offer-desc-string .coverable-offer .price-value { padding-left: 5px; padding-right: 5px; }
+.xdget-offer .offer-desc-string .coverable-offer .final-price { color: red; }
+.xdget-offer .offer-desc-string .coverable-offer .personal-discount-text { color: red; font-weight: bold; margin-bottom: 10px; }
+.xdget-offer .offer-desc-string .coverable-offer .products-block { margin-bottom: 10px; margin-top: 5px; }
+.xdget-offer .offer-desc-string .coverable-offer .products-list { padding-left: 20px; }
+.xdget-offer .offer-desc-string .coverable-offer .exists-products div div { text-decoration: line-through; }
+.xdget-offer .offer-desc-string .coverable-offer .period-string { color: rgb(187, 187, 187); }
+.xdget-offer .offer-desc-string .coverable-offer { background: white none repeat scroll 0% 0%; margin: 20px 20px 20px 0px; padding: 10px 20px; }
+.xdget-offer .offer-desc-string .coverable-offer .fa { color: green; }
+.xdget-offer .offer-desc-string .coverable-offer .fa.fa-plus { color: red; }
+.xdget-offer .currency-prices span { font-size: 0.8em; color: rgb(153, 153, 153); margin-left: 5px; }
+.offer-count-block input { text-align: center; }
+.modal-backdrop.for-modal-xdget.in { opacity: 0.75; z-index: 10000; }
+.xdget-offerSelector { list-style: outside none none; font-size: 1.2em; padding-bottom: 20px; }
+.xdget-offerSelector .offer-selector-hor-table th { text-align: center; padding-bottom: 5px; }
+.xdget-offerSelector .offer-selector-hor-table .product-title-td { padding-right: 20px; min-width: 300px; }
+.xdget-offerSelector .offer-selector-hor-table td { padding-top: 20px; padding-bottom: 10px; }
+.xdget-offerSelector .offer-selector-hor-table td.offer-part-td { text-align: center; max-width: 200px; padding-left: 20px; padding-right: 20px; }
+.xdget-offerSelector .offer-selector-hor-table .final-price-tr td { text-align: center; }
+.xdget-offerSelector .offer-selector-hor-table .final-price { color: red; font-size: 150%; white-space: nowrap; }
+.xdget-offerSelector .offer-selector-hor-table .source-price { text-decoration: line-through; color: rgb(102, 102, 102); }
+.xdget-orderForm td.offer-part-td.special-offer { background: rgb(252, 236, 208) none repeat scroll 0% 0%; }
+.xdget-orderForm .special-offer .btn-order { background-color: rgb(247, 122, 0); }
+.xdget-orderForm .special-offer .btn-order:hover { background-color: rgb(254, 145, 38); }
+.xdget-orderForm td.offer-part-td { background: rgb(233, 241, 241) none repeat scroll 0% 0%; border-right: 15px solid white; }
+.xdget-orderForm td.offer-part-desc span { color: rgb(102, 102, 102); display: block; font-size: 0.8em; }
+.xdget-orderForm .description { font-size: 0.8em; display: block; color: rgb(102, 102, 102); }
+.xdget-orderForm .btn-order { display: inline-block; background-color: rgb(101, 160, 32); border-radius: 0px; color: white; padding: 13px 20px; text-decoration: none; text-transform: uppercase; font-size: 80%; font-weight: bold; font-family: Arial,"Helvetica Neue",sans-serif; margin-bottom: 7px; }
+.xdget-orderForm .btn-order:hover { background: rgb(124, 190, 46) none repeat scroll 0% 0%; }
+.xdget-offerSelector .offer-selector-hor-table.col-width-narrow td.offer-part-td { padding-left: 5px; padding-right: 5px; }
+.xdget-orderForm .col-width-narrow td.offer-part-td { border-right-width: 5px; }
+.xdget-offerSelector .offer-selector-hor-table.col-width-narrow .product-title-td { min-width: 140px; padding-right: 5px; }
+.xdget-offerSelector .offer-desc-string { display: none; }
+.xdget-offerSelector.with-desc-string .offer-desc-string { display: block; }
+.xdget-offerSelector .currency-selector { font-size: 0.9em; }
+.xdget-offerSelector .currency-selector .change-currency-btn { color: rgb(66, 139, 202); cursor: pointer; border-bottom: 1px dotted rgb(66, 139, 202); }
+.xdget-offerSelector .currency-selector .change-currency-btn.active { color: black; border: 0px none; }
+.xdget-offer-selector li { list-style: outside none none; }
+.xdget-row.editable { border: 1px dashed rgb(238, 238, 238); padding: 15px; z-index: 35; }
+.xdget-row.row { margin-right: -15px; margin-left: -15px; }
+.xdget-row.hovered > .xdget-in-placeholder-left { display: none; }
+.xdget-row.hovered > .xdget-in-placeholder-right { display: none; }
+.xdget-row.editing > .xdget-in-placeholder-left { display: block; }
+.xdget-row.editing > .xdget-in-placeholder-right { display: block; }
+.xdget-row.float-row { overflow: hidden; }
+.xdget-row.float-row > .xdget-block { float: left; }
+.xdget-table-table { width: 100%; }
+.xdget-table-table tr td { vertical-align: top; padding-right: 30px; }
+.xdget-table.editing > table > tbody > tr > td > .xdget-block { border: 1px dashed rgb(153, 153, 153); }
+.xdget-table.editing .ui-draggable { cursor: pointer; }
+.xdget-table.editing .ui-droppable.ui-state-hover { background: rgb(255, 253, 232) none repeat scroll 0% 0% ! important; }
+.xdget-table.editing .ui-droppable.ui-state-default { border: 1px dashed green; }
+.xdget-block .dd-handler { width: 20px; height: 20px; position: absolute; top: -10px; left: 0px; }
+.xdget-video.responsive.editable iframe { top: 10px; left: 10px; width: 98%; height: 98%; }
+.xdget-video.responsive { height: 0px; padding-top: 25px; padding-bottom: 67.5%; position: relative; overflow: hidden; }
+.xdget-video.responsive { padding-bottom: 57.25%; }
+.xdget-video.responsive { padding-top: 0px; }
+.xdget-video.responsive iframe { top: 0px; left: 0px; width: 100%; height: 100%; position: absolute; }
+.xdget-modal { overflow: hidden; }
+.xdget-modal { display: none; }
+.xdget-modal.editable { display: block; }
+.xdget-modal-main-el .xdget-modal { display: block; }
+.xdget-modal-main-el .xdget-modal .modal-content { padding: 0px; }
+.gc-modal.xdget-modal-main-el .modal-dialog { width: 60%; padding: 0px; }
+.gc-modal.xdget-modal-main-el.for-mobile .modal-dialog { width: 100%; margin: 0px; min-height: 100%; }
+.gc-modal.xdget-modal-main-el.for-mobile .modal-dialog .modal-content { height: 100%; }
+.gc-modal.for-mobile .close-btn { display: none; }
+.gc-modal .close-panel { display: none; }
+.gc-modal.for-mobile .close-panel { display: block; text-align: center; font-size: 2em; cursor: pointer; }
+.xdget-modal-main-el .modal-body { padding: 0px; }
+.xdget-page.editable { min-height: 1000px; }
+.sidebar-nav { padding: 9px 0px; }
+.dropdown-menu .sub-menu { left: 100%; position: absolute; top: 0px; visibility: hidden; margin-top: -1px; }
+.dropdown-menu li:hover .sub-menu { visibility: visible; }
+.xdget-block .dropdown:hover .dropdown-menu { display: block; }
+.nav-tabs .dropdown-menu, .nav-pills .dropdown-menu, .navbar .dropdown-menu { margin-top: 0px; }
+.navbar .sub-menu::before { border-width: 7px 7px 7px 0px; border-style: solid solid solid none; border-color: transparent rgba(0, 0, 0, 0.2) transparent currentcolor; left: -7px; top: 10px; }
+.navbar .sub-menu::after { border-width: 6px 6px 6px 0px; border-style: solid solid solid none; border-color: transparent rgb(255, 255, 255) transparent currentcolor; top: 11px; left: -6px; }
+.xdget-page.editable { min-height: 1000px; }
+.root-element-panel .panel-heading { display: none; }
+.sidebar-nav { padding: 9px 0px; }
+.dropdown-menu .sub-menu { left: 100%; position: absolute; top: 0px; visibility: hidden; margin-top: -1px; }
+.dropdown-menu li:hover .sub-menu { visibility: visible; }
+.xdget-block .dropdown:hover .dropdown-menu { display: block; }
+.nav-tabs .dropdown-menu, .nav-pills .dropdown-menu, .navbar .dropdown-menu { margin-top: 0px; }
+.navbar .sub-menu::before { border-width: 7px 7px 7px 0px; border-style: solid solid solid none; border-color: transparent rgba(0, 0, 0, 0.2) transparent currentcolor; left: -7px; top: 10px; }
+.navbar .sub-menu::after { border-width: 6px 6px 6px 0px; border-style: solid solid solid none; border-color: transparent rgb(255, 255, 255) transparent currentcolor; top: 11px; left: -6px; }
+.sidebar-nav { padding: 9px 0px; }
+.dropdown-menu .sub-menu { left: 100%; position: absolute; top: 0px; visibility: hidden; margin-top: -1px; }
+.dropdown-menu li:hover .sub-menu { visibility: visible; }
+.xdget-block .dropdown:hover .dropdown-menu { display: block; }
+.nav-tabs .dropdown-menu, .nav-pills .dropdown-menu, .navbar .dropdown-menu { margin-top: 0px; }
+.navbar .sub-menu::before { border-width: 7px 7px 7px 0px; border-style: solid solid solid none; border-color: transparent rgba(0, 0, 0, 0.2) transparent currentcolor; left: -7px; top: 10px; }
+.navbar .sub-menu::after { border-width: 6px 6px 6px 0px; border-style: solid solid solid none; border-color: transparent rgb(255, 255, 255) transparent currentcolor; top: 11px; left: -6px; }
+.xdget-webinarTranslation .alert { background: rgb(51, 51, 51) none repeat scroll 0% 0%; color: white; height: 300px; padding-top: 100px; text-align: center; }
+.xdget-webinarTranslation { overflow: visible ! important; }
+.xdget-webinarTranslation .controls { position: absolute; top: 100%; width: 100%; }
+.xdget-webinarTranslation .controls .webinar-link { margin-top: 5px; margin-bottom: 15px; font-weight: bold; }
+.xdget-webinarTranslation .controls .webinar-link input { width: 100%; }
+.xdget-webinarTranslation .controls a { cursor: pointer; }
+.xdget-webinarTranslation .controls form { margin-top: 10px; margin-bottom: 10px; }
+.main-lesson-container { max-width: 870px; }
+.center-block { background: rgb(250, 250, 250) none repeat scroll 0% 0%; }
+.center-block .row { margin: 0px; background: rgb(250, 250, 250) none repeat scroll 0% 0%; }

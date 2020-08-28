@@ -1,0 +1,6 @@
+/* Code tidied up by ScrapBook */
+.b-like { font-size: 0.8em; }
+.b-like a { font-size: 1em; }
+.b-like .button { color: rgb(66, 139, 202); cursor: pointer; border-bottom: 1px dotted rgb(66, 139, 202); }
+.b-like .positive-count .icon, .b-like .positive-count .value { color: rgb(66, 139, 202); }
+.b-like .positive-count .icon { font-size: 1.1em; }

@@ -1,0 +1,8 @@
+/* Code tidied up by ScrapBook */
+@font-face {
+  font-family: "fa-viber";
+  font-style: normal;
+  font-weight: normal;
+  src: url("fa-viber_001.eot") format("embedded-opentype"), url("fa-viber_001.ttf") format("truetype"), url("fa-viber_001.woff") format("woff"), url("fa-viber_001.svg") format("svg");
+}
+.fa-viber::before { font-family: "fa-viber"; content: ""; }

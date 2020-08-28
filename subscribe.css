@@ -1,0 +1,4 @@
+/* Code tidied up by ScrapBook */
+.b-notifications-subscribe { font-size: 0.8em; }
+.b-notifications-subscribe .button { color: rgb(66, 139, 202); cursor: pointer; border-bottom: 1px dotted rgb(66, 139, 202); }
+.b-notifications-subscribe .subscribed { color: gray; border-bottom: 1px dotted gray; }

@@ -1,0 +1,16 @@
+/* Code tidied up by ScrapBook */
+.gc-user-form-widget { background-color: rgb(240, 240, 240); padding: 20px; position: relative; }
+.gc-user-form-widget .form { position: relative; }
+.gc-user-form-widget h3 { margin-bottom: 10px; }
+.gc-user-form-widget .form.active { display: block; }
+.gc-user-form-widget .form .absolute { position: absolute; }
+.gc-user-form-widget .form .top { top: 0px; }
+.gc-user-form-widget .form .right { right: 0px; }
+.gc-user-form-widget .form-field { margin-bottom: 20px; }
+.gc-user-form-widget .form-field input { background: rgb(255, 255, 255) url("welcome-icons.png") no-repeat scroll 9px -111px; padding-left: 35px; }
+.gc-user-form-widget .form-field input.form-field-email { background-position: 9px 9px ! important; }
+.gc-user-form-widget .form-field input.form-field-phone { background-position: 9px -71px ! important; }
+.gc-user-form-widget h2 { margin: 0px; }
+.gc-user-form-widget .social-buttons { float: right; }
+.gc-user-form-widget .social-buttons .btn-social-icon { margin: 0px 5px 0px 0px; }
+.gc-user-form-widget .social-buttons .btn:hover { color: white; }

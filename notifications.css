@@ -1,0 +1,23 @@
+/* Code tidied up by ScrapBook */
+.user-notifications { display: none; width: 340px; clear: both; }
+.user-notifications .clear { clear: both; }
+.user-notifications .notification-group { border-top: 1px solid rgb(224, 224, 224); position: relative; padding: 14px 14px 10px 20px; background-color: rgb(255, 255, 255); font-size: 0.9em; }
+.user-notifications .notification-group .content { width: 225px; float: left; margin-top: -2px; line-height: 1.2em; }
+.user-notifications .notification-group .date { position: absolute; bottom: 5px; right: 14px; color: rgb(195, 195, 195); font-size: 0.8em; }
+.user-notifications .notification-group .user-image { float: left; margin-right: 10px; }
+.user-notifications .notification-group .mark-viewed { position: absolute; top: 10px; right: 14px; color: rgb(195, 195, 195); font-size: 20px; }
+.user-notifications .notification-group .mark-viewed:hover { color: rgb(0, 0, 0); }
+.user-notifications .notification-group .notification { padding: 5px; }
+.user-notifications .notification-click-area { cursor: pointer; display: block; color: rgb(51, 51, 51); }
+.user-notifications .notification-click-area:hover { background-color: rgb(253, 249, 241); }
+.user-notifications .notification-status-viewed, .user-notifications .notification-status-viewed:hover { background-color: rgb(240, 240, 240); }
+.user-notifications .notification-status-viewed, .user-notifications .notification-status-viewed a { color: rgb(175, 175, 175); }
+.user-notifications .notification-status-viewed:hover, .user-notifications .notification-status-viewed a:hover { color: rgb(115, 115, 115); }
+#serviceBlocknotifications_button { width: 340px; border-left: 1px solid rgb(224, 224, 224); }
+.leftbar-main-links .user-notifications-button .service-link { height: 36px; }
+.leftbar-main-links .user-notifications-button .notify-count { margin-top: 8px; right: 20px; }
+.user-notifications-page .user-notifications { display: block; width: 100%; margin-bottom: 20px; }
+.user-notifications-page .user-notifications .notification-group { border-top: medium none; font-size: 1em; }
+.user-notifications-page .user-notifications .notification-group .content { padding-left: 0px; }
+.user-notifications-page .user-notifications .notification-group .mark-viewed { display: none; }
+.note-editor.fullscreen { padding-left: 70px ! important; }

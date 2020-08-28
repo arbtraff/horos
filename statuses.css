@@ -1,0 +1,26 @@
+/* Code tidied up by ScrapBook */
+.bg-commented { background: lightgoldenrodyellow none repeat scroll 0% 0%; }
+.bg-problem { background: rgb(255, 236, 243) none repeat scroll 0% 0%; }
+.bg-lightblue { background: rgb(240, 255, 255) none repeat scroll 0% 0%; }
+.deal-status.deal-status-label { padding: 3px 10px; width: 110px; display: inline-block; text-align: center; font-weight: bold; font-size: 12px; }
+.deal-status.deal-status-block { padding: 3px 10px; white-space: nowrap; display: inline-block; text-align: center; font-weight: bold; font-size: 12px; width: 140px; }
+.deal-status.status-new { background: orange none repeat scroll 0% 0%; color: white; }
+.deal-status.status-payed { background: green none repeat scroll 0% 0%; color: white; }
+.deal-status.status-payed.not-payed { font-weight: normal; background: rgba(181, 182, 143, 0.45) none repeat scroll 0% 0%; }
+.deal-status.status-part_payed { background: rgb(129, 193, 126) none repeat scroll 0% 0%; color: white; }
+.deal-status.status-cancelled { background: gray none repeat scroll 0% 0%; color: white; }
+.deal-status.status-not_confirmed { background: rgb(122, 159, 182) none repeat scroll 0% 0%; color: white; }
+.deal-status.status-in_work { background: blue none repeat scroll 0% 0%; color: white; }
+.deal-status.status-false { background: rgb(211, 211, 211) none repeat scroll 0% 0%; color: black; }
+.deal-status.status-payment_waiting { background: rgba(0, 182, 0, 0.45) none repeat scroll 0% 0%; font-weight: normal; color: black; }
+.deal-status.status-waiting_for_return { background: rgb(255, 173, 153) none repeat scroll 0% 0%; font-weight: normal; color: black; }
+.deal-status-light.status-new { background: rgb(255, 246, 229) none repeat scroll 0% 0%; }
+.deal-status-light.status-payed { background: rgb(229, 242, 229) none repeat scroll 0% 0%; }
+.deal-status-light.status-payed.not-payed { background: rgba(249, 250, 247, 0.89) none repeat scroll 0% 0%; }
+.deal-status-light.status-part_payed { background: rgb(248, 251, 248) none repeat scroll 0% 0%; }
+.deal-status-light.status-cancelled { background: rgb(242, 242, 242) none repeat scroll 0% 0%; }
+.deal-status-light.status-not_confirmed { background: rgb(248, 250, 251) none repeat scroll 0% 0%; }
+.deal-status-light.status-in_work { background: rgb(242, 242, 255) none repeat scroll 0% 0%; }
+.deal-status-light.status-false { background: rgb(233, 233, 233) none repeat scroll 0% 0%; }
+.deal-status-light.status-payment_waiting { background: rgba(247, 252, 247, 0.945) none repeat scroll 0% 0%; }
+.deal-status-light.status-waiting_for_return { background: rgb(255, 246, 244) none repeat scroll 0% 0%; }

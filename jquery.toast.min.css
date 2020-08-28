@@ -1,0 +1,9 @@
+/* Code tidied up by ScrapBook */
+.toast { position: fixed; list-style: outside none none; padding: 0px; top: 0px; z-index: 999999; font-family: "Helvetica Neue",Helvetica,Arial,sans-serif; font-size: 14px; line-height: 20px; }
+.toast li { margin: 10px 0px 0px; display: block; background-color: rgb(252, 248, 227); color: rgb(192, 152, 83); border: 1px solid rgb(251, 238, 213); padding: 5px 10px; border-radius: 4px; text-shadow: 0px 1px 0px rgba(255, 255, 255, 0.5); box-shadow: 0px 2px 5px rgba(0, 0, 0, 0.15); }
+.toast li:first-child { margin-top: 0px; }
+.toast li.danger { color: rgb(185, 74, 72); background-color: rgb(242, 222, 222); border-color: rgb(238, 211, 215); }
+.toast li.info { color: rgb(58, 135, 173); background-color: rgb(217, 237, 247); border-color: rgb(188, 232, 241); }
+.toast li.success { color: rgb(70, 136, 71); background-color: rgb(223, 240, 216); border-color: rgb(214, 233, 198); }
+.toast button.close { background: transparent none repeat scroll 0% 0%; border: medium none; font-weight: bold; font-size: 20px; line-height: 20px; float: right; padding: 0px; margin: 0px 0px 0px 5px; color: rgba(0, 0, 0, 0.25); cursor: pointer; }
+.toast h1, .toast h2, .toast h3, .toast h4 { display: inline; }

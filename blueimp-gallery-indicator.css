@@ -1,0 +1,8 @@
+/* Code tidied up by ScrapBook */
+.blueimp-gallery > .indicator { position: absolute; top: auto; right: 15px; bottom: 15px; left: 15px; margin: 0px 40px; padding: 0px; list-style: outside none none; text-align: center; line-height: 10px; display: none; }
+.blueimp-gallery > .indicator > li { display: inline-block; width: 9px; height: 9px; margin: 6px 3px 0px; box-sizing: content-box; border: 1px solid transparent; background: rgba(255, 255, 255, 0.25) none no-repeat scroll center center; border-radius: 5px; box-shadow: 0px 0px 2px rgb(0, 0, 0); opacity: 0.5; cursor: pointer; }
+.blueimp-gallery > .indicator > li:hover, .blueimp-gallery > .indicator > .active { background-color: rgb(255, 255, 255); border-color: rgb(255, 255, 255); opacity: 1; }
+.blueimp-gallery-controls > .indicator { display: block; transform: translateZ(0px); }
+.blueimp-gallery-single > .indicator { display: none; }
+.blueimp-gallery > .indicator { -moz-user-select: none; }
+* + html .blueimp-gallery > .indicator > li { display: inline; }

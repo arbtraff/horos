@@ -1,0 +1,33 @@
+/* Code tidied up by ScrapBook */
+.teach-lesson-state-not_started { background: orange none repeat scroll 0% 0%; color: white; }
+.teach-lesson-state-scheduled { background: rgb(128, 162, 173) none repeat scroll 0% 0%; color: white; padding: 3px 7px; }
+.teach-lesson-state-soon { background: orange none repeat scroll 0% 0%; color: white; padding: 3px 7px; }
+.teach-lesson-state-moved { background: lightcoral none repeat scroll 0% 0%; color: white; padding: 3px 7px; }
+.teach-lesson-state-cancelled { background: lightcoral none repeat scroll 0% 0%; color: white; padding: 3px 7px; }
+.teach-lesson-state-started { background: green none repeat scroll 0% 0%; color: white; padding: 3px 7px; }
+.teach-lesson-state-must_be_started { background: darkred none repeat scroll 0% 0%; color: white; padding: 3px 7px; }
+.teach-lesson-state-finished { background: rgb(187, 187, 187) none repeat scroll 0% 0%; color: white; padding: 3px 7px; }
+.teach-lesson-state-scheduled-light { background: rgba(128, 162, 173, 0.27) none repeat scroll 0% 0%; }
+.user-state-icon::before { content: attr(data-icon); font-weight: normal; font-variant: normal; text-transform: none; }
+.user-state-icon { color: white; }
+.user-state-label { font-weight: bold; }
+.user-state-bg { background: white none repeat scroll 0% 0%; }
+.user-state-accomplished .user-state-label { color: rgb(39, 174, 96); }
+.user-state-need_accomplish .user-state-label { color: rgb(231, 76, 60); }
+.user-state-has_mission .user-state-label { color: rgb(52, 73, 94); }
+.user-state-answered .user-state-label { color: rgb(52, 73, 94); }
+.user-state-accomplished .user-state-bg { background: rgb(39, 174, 96) none repeat scroll 0% 0%; }
+.user-state-need_accomplish .user-state-bg { background: rgb(231, 76, 60) none repeat scroll 0% 0%; }
+.user-state-has_mission .user-state-bg { background: rgb(52, 73, 94) none repeat scroll 0% 0%; }
+.user-state-answered .user-state-bg { background: rgb(52, 73, 94) none repeat scroll 0% 0%; }
+.user-state-reached .user-state-icon::before {  }
+.user-state-viewed .user-state-icon::before { content: ""; }
+.user-state-accomplished .user-state-icon::before { content: ""; }
+.user-state-need_accomplish .user-state-icon::before { content: ""; }
+.user-state-has_mission .user-state-icon::before { content: ""; }
+.user-state-answered .user-state-icon::before { content: ""; }
+.user-state-new-icon.fa { font-size: 16px; color: white; font-weight: normal; }
+.user-state-new-icon.fa.fa-angle-right { font-size: 24px; font-weight: bold; }
+.user-state-not_reached .user-state-bg { background: rgb(217, 223, 226) none repeat scroll 0% 0%; }
+.center-block { background: rgb(250, 250, 250) none repeat scroll 0% 0%; }
+.center-block .row { margin: 0px; background: rgb(250, 250, 250) none repeat scroll 0% 0%; }

@@ -1,0 +1,18 @@
+/* Code tidied up by ScrapBook */
+.gc-tasks-block { position: absolute; top: 0px; height: 2px; width: 100%; text-align: center; z-index: 50; }
+.gc-tasks-block.opened .annotate-block { width: 400px; }
+.gc-tasks-block.opened .tasks-block { display: block; border-top: 0px none; }
+.gc-tasks-block .annotate-block { background: rgb(240, 240, 240) none repeat scroll 0% 0%; padding-top: 3px; width: 250px; margin-left: auto; margin-right: auto; cursor: pointer; padding-bottom: 5px; }
+.gc-tasks-block .tasks-block { display: none; width: 400px; margin-left: auto; margin-right: auto; }
+.gc-tasks-block .tasks-block .all-tasks-link-block { padding: 5px; background: rgb(224, 224, 224) none repeat scroll 0% 0%; display: block; border-top: 1px solid rgb(221, 221, 221); }
+.gc-tasks-block .tasks-block .all-tasks-link-block:hover { cursor: pointer; background: rgb(227, 241, 255) none repeat scroll 0% 0%; }
+.gc-tasks-block .tasks-block .task-block { background: rgb(245, 245, 245) none repeat scroll 0% 0%; display: block; text-decoration: none; border-top: 1px solid rgb(221, 221, 221); overflow: hidden; padding: 10px; text-align: left; }
+.gc-tasks-block .tasks-block .task-block .status-wrapper { float: right; }
+.gc-tasks-block .tasks-block .task-block .task-text-data { margin-left: 80px; }
+.gc-tasks-block .tasks-block .task-block .image { float: left; margin-right: 5px; }
+.gc-tasks-block .tasks-block .task-block .manager-name { font-size: 0.8em; color: rgb(102, 102, 102); }
+.gc-tasks-block .tasks-block .task-block .expired-time { display: none; }
+.gc-tasks-block .tasks-block .task-block.normal-time .expired-time { display: block; }
+.gc-tasks-block .tasks-block .task-block.normal-time.expired .expired-time { color: red; }
+.gc-tasks-block .tasks-block .task-block:hover { background: rgb(227, 241, 255) none repeat scroll 0% 0%; cursor: pointer; }
+.gc-tasks-block .tasks-group-label { padding-top: 4px; padding-bottom: 4px; background: rgb(224, 224, 224) none repeat scroll 0% 0%; }
